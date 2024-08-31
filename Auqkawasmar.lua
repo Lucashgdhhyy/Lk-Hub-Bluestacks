@@ -10,21 +10,21 @@ OrionLib:MakeNotification({
 
 -- Test Main Window
 local MainWindow = OrionLib:MakeWindow({
-    Name = "Test Hub",
+    Name = "Key System Hub",
     HidePremium = false,
     SaveConfig = true,
     IntroEnabled = false
 })
  
 OrionLib:MakeNotification({
-    Name = "Welcome To Test Hub!",
-    Content = "You Are Logged In As "..Player.Name..".",
+    Name = "Welcome To Lk Hub",
+    Content = "Coloque a chave "..Player.Name..".",
     Image = "rbxassetid://4483345998",
     Time = 5
 })
  
 -- Test Global Variables
-_G.Key = "TestKey"
+_G.Key = "LkRelease"
 _G.KeyInput = ""
  
 local function LoadTestHub()
@@ -183,3 +183,9 @@ KeySystemTab:AddButton({
     end    
 })
  
+Tab:AddButton({
+	Name = "Copy KeySystem",
+	Callback = function()
+      		print("button pressed")     setclipboard("https://sites.google.com/view/lkkeysystem/key")
+  	end    
+})
