@@ -8,7 +8,7 @@ OrionLib:MakeNotification({
 
 OrionLib:MakeNotification({
 	Name = "Status",
-	Content = "Key system:❌ Script:✅",
+	Content = "Key system:❌ Interface:✅",
 	Image = "rbxassetid://2790551206",
 	Time = 12
 })
@@ -22,7 +22,7 @@ local Tab = Window:MakeTab({
 
 Tab:AddParagraph("Creditos","Kaper1ol")
 
-Tab:AddParagraph("Status","Key system:❌ Script:✅")
+Tab:AddParagraph("Status","Key system:❌ Interface:✅")
 
 Tab:AddParagraph("Lk Tip:","Todos os hubs foram testados")
 
