@@ -9,7 +9,7 @@ OrionLib:MakeNotification({
 })
 -- Test Main Window
 local MainWindow = OrionLib:MakeWindow({
-    Name = "Key System Hub",
+    Name = "Lk Hub Elite Key System V0.5",
     HidePremium = false,
     SaveConfig = true,
     IntroEnabled = false
@@ -30,7 +30,7 @@ local function LoadTestHub()
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Lk Hub Elite", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroText = "Loading"})
+local Window = OrionLib:MakeWindow({Name = "Lk Hub Elite V0.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroText = "Loading"})
 
 OrionLib:MakeNotification({
 	Name = "Lk Hub",
