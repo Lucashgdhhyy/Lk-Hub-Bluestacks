@@ -7,16 +7,6 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://2790551206",
 	Time = 12
 })
-
-OrionLib:MakeNotification({
-	Name = "Loading Hub",
-	Content = "",
-	Image = "rbxassetid://2790551206",
-	Time = 11
-}) 
-
-wait(6)
-
 -- Test Main Window
 local MainWindow = OrionLib:MakeWindow({
     Name = "Key System Hub",
@@ -170,14 +160,6 @@ local KeySystemTab = MainWindow:MakeTab({
     PremiumOnly = false
 })
 
-
-Tab:AddButton({
-	Name = "Get Key",
-	Callback = function()
-      		print("button pressed")     setclipboard("https://sites.google.com/view/lkkeysystem/key")
-  	end    
-})
-
 KeySystemTab:AddTextbox({
     Name = "Enter Key Here!",
     Default = "Key",
@@ -200,3 +182,9 @@ KeySystemTab:AddButton({
     end    
 })
 
+KeySystemTab:AddButton({
+	Name = "Get Key",
+	Callback = function()
+      		print("button pressed")     setclipboard("https://sites.google.com/view/lkkeysystem/key")
+  	end    
+})
