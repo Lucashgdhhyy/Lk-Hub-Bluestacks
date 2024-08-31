@@ -5,6 +5,14 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://2790551206",
 	Time = 12
 })
+
+OrionLib:MakeNotification({
+	Name = "Status",
+	Content = "Key system:❌ Script: ✅",
+	Image = "rbxassetid://2790551206",
+	Time = 12
+})
+
 local Window = OrionLib:MakeWindow({Name = "Lk Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroText = "Loading"})
 local Tab = Window:MakeTab({
 	Name = "Creditos",
@@ -85,7 +93,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/
 
 local Tab = Window:MakeTab({
 	Name = "Monday Morning Misery",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://2790551206",
 	PremiumOnly = false
 })
 
