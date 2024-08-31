@@ -12,6 +12,8 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+Tab:AddParagraph("Lk Tip:","Hubs 100% Confiaveis")
+
 Tab:AddParagraph("Creditos","Kaper1ol")
 
 Tab:AddButton({
@@ -78,5 +80,18 @@ Tab:AddButton({
       		print("button pressed")      getgenv().visualizer = true
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Monday Morning Misery",
+	Icon = "rbxassetid://2790551206",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Auto-Player",
+	Callback = function()
+      		print("button pressed")      loadstring(game:HttpGet("https://rawscripts.net/raw/MECHANICS-Monday-Morning-Misery-Beta-OVERPOWERD-AUTOPLAYER-12411"))()
   	end    
 })
