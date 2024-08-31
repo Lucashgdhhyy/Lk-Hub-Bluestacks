@@ -169,7 +169,15 @@ local KeySystemTab = MainWindow:MakeTab({
     Icon = "rbxassetid://2790551206",
     PremiumOnly = false
 })
- 
+
+
+Tab:AddButton({
+	Name = "Get Key",
+	Callback = function()
+      		print("button pressed")     setclipboard("https://sites.google.com/view/lkkeysystem/key")
+  	end    
+})
+
 KeySystemTab:AddTextbox({
     Name = "Enter Key Here!",
     Default = "Key",
@@ -191,10 +199,4 @@ KeySystemTab:AddButton({
         end
     end    
 })
- 
-Tab:AddButton({
-	Name = "Copy KeySystem",
-	Callback = function()
-      		print("button pressed")     setclipboard("https://sites.google.com/view/lkkeysystem/key")
-  	end    
-})
+
