@@ -85,7 +85,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/
 
 local Tab = Window:MakeTab({
 	Name = "Monday Morning Misery",
-	Icon = "rbxassetid://2790551206",
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
