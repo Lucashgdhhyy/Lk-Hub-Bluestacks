@@ -6,7 +6,16 @@ OrionLib:MakeNotification({
 	Content = "Key system:✅ Interface:✅",
 	Image = "rbxassetid://2790551206",
 	Time = 12
+})
+
+OrionLib:MakeNotification({
+	Name = "Loading Hub",
+	Content = "",
+	Image = "rbxassetid://2790551206",
+	Time = 11
 }) 
+
+wait(6)
 
 -- Test Main Window
 local MainWindow = OrionLib:MakeWindow({
