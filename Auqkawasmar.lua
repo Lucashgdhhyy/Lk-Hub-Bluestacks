@@ -3,7 +3,7 @@ local Player = game.Players.LocalPlayer
 
 OrionLib:MakeNotification({
 	Name = "Status",
-	Content = "Key system:✅ Interface:✅",
+	Content = "Key system:✅ Script Hub:✅",
 	Image = "rbxassetid://2790551206",
 	Time = 12
 })
@@ -47,7 +47,7 @@ local Tab = Window:MakeTab({
 
 Tab:AddParagraph("Creditos","Kaper1ol")
 
-Tab:AddParagraph("Status","Key system:❌ Interface:✅")
+Tab:AddParagraph("Status","Key system:✅ Script Hub:✅")
 
 Tab:AddParagraph("Lk Tip:","Todos os hubs foram testados")
 
