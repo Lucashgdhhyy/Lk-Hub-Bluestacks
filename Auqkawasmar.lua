@@ -8,7 +8,7 @@ OrionLib:MakeNotification({
 
 OrionLib:MakeNotification({
 	Name = "Status",
-	Content = "Key system:❌ Script: ✅",
+	Content = "Key system:❌ Script:✅",
 	Image = "rbxassetid://2790551206",
 	Time = 12
 })
@@ -20,9 +20,11 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Lk Tip:","Hubs 100% Confiaveis")
-
 Tab:AddParagraph("Creditos","Kaper1ol")
+
+Tab:AddParagraph("Status","Key system:❌ Script:✅")
+
+Tab:AddParagraph("Lk Tip:","Todos os hubs foram testados")
 
 Tab:AddButton({
 	Name = "Copy Discord",
@@ -93,7 +95,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/
 
 local Tab = Window:MakeTab({
 	Name = "Monday Morning Misery",
-	Icon = "rbxassetid://2790551206",
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
